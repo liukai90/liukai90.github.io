@@ -1,8 +1,8 @@
-**当我们去写多表关联查询的sql，通常会映射出一个非常复杂的结果，如果我们使用Mybatis框架，那么就得使用resultMap去编写映射，这让我们非常头疼，经过我的总结得出了比较简单的步骤。**
+### 简介
+当我们去写多表关联查询的sql，通常会映射出一个非常复杂的结果，如果我们使用Mybatis框架，那么就得使用resultMap去编写映射，这让我们非常头疼，经过我的总结得出了比较简单的步骤。
+拿一个真实项目开发中的案例
 
-**拿一个真实项目开发中的案例：**
-
-###1.先去编写映射数据库查询结果集的java bean如下
+### 1.先去编写映射数据库查询结果集的java bean如下
 
 ```java
 package com.xdja.atecs.pojo;
@@ -158,7 +158,7 @@ public class MemberExtend {
 
 
 
-###2.下面说明resultMap一看就懂
+### 2.下面说明resultMap一看就懂
 
 ```xml-dtd
 <resultMap id="memberExtend" type="com.xdja.atecs.pojo.MemberExtend">
