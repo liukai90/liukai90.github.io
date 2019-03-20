@@ -83,7 +83,8 @@ constructor(public navCtrl: NavController, public navParams: NavParams) {
 
  - 运行ionic serve报错如下图
 
-![clipboard.png](E:\git\liukai90.github.io\cordova+ionic\img\error.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/error.png)
+
 大概意思是说获取不到dom节点，也就是我们展示地图的那个div，打印了之后发现是null或者undefine。后面就打印了一下ionic页面的生命周期，测试了一下ionic页面的生命周期函数。
 
 生命周期函数	触发时刻	顺序
@@ -111,7 +112,7 @@ ionViewDidEnter(){
 ```
 运行ionic serve 完美解决
 
-![clipboard.png](E:\git\liukai90.github.io\cordova+ionic\img\result.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/result.png)
 
 ## 3.完整代码示例 ##
 Charts.ts如下
