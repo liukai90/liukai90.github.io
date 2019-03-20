@@ -1,4 +1,4 @@
-#1. 环境依赖关系叙述#
+# 1. 环境依赖关系叙述
 移动端混合开发的一个明显优势就是，一套代码两套部署，开发一套项目代码，可分别打成Android的包和ios的包。无论是混合开发还是原生开发，都是会需要原生的平台。我们先以Android平台为例，首先肯定需要AndroidSDK,Android环境缘起于java，所以必须先安装JDk,这是平台的环境.混合开发顾名思义需要前端和原生两块环境内容。混合开发平台，我们选择的是cordova,那么它依赖于node.js环境，并且需要node.js的npm模块来帮它下载插件。创建项目还需调试运行，那么就会需要Android模拟器。由于原生的Android模拟器启动过于慢，而且由于网络限制，google的cpu渲染加速器环境也难以下载。我们这里使用的是一个国外的好用且免费的第三方模拟器Genymotion。东西是免费的，但是需要注册和登陆。
 一共需要搭建的环境也就这么几个JDK，AndroidSDK,node.js,cordova, Genymotion。
 
@@ -18,25 +18,25 @@ AndroidSDK
 
 Genymotion
 
-#2.安装说明#
-##2.1 JDK##
+# 2.安装说明 
+## 2.1 JDK
 安装教程很多，记住安装时下载1.8版本
-菜鸟教程：[http://www.runoob.com/java/java-environment-setup.html][1]
-##2.2 AndroidSDK##
+菜鸟教程：http://www.runoob.com/java/java-environment-setup.html
+## 2.2 AndroidSDK 
 
-androidSDK由于国内限网，推荐一个国内的一个下载网站：[http://www.androiddevtools.cn/][2]
+androidSDK由于国内限网，推荐一个国内的一个下载网站：http://www.androiddevtools.cn/
 下载后根据提示安装，推荐下载的包就不要取消。系统一般会帮你默认勾选安卓最新版本Android9.0，但是Android9.0会出现模拟器启动不了的问题，坑很多，建议安装9.0以下的，我选的Android6.0，勾选下图的选项即可。
 
-![clipboard.png](/img/bVbk5Na)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/android.png)
 
 
 下载完配置Android环境变量
 打开安卓的安卓目录如图，我画圈的两个目录，需要加入到path里面
 D:\Program Files\android\platform-tools; D:\Program Files\android\tools;
 
-![clipboard.png](/img/bVbk5Nz)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/path.png)
 
-##2.3Genymotion 安装
+## 2.3Genymotion 安装
 
 - 官网下载
 
@@ -52,14 +52,10 @@ D:\Program Files\android\platform-tools; D:\Program Files\android\tools;
 
  打开后如图，点击add。
 
- ![图片描述][3]
-
-
-
-​	
+ ![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/genymotion1.png)
 
  - 找自己需要的版本下载即可
-   ![图片描述][4]
+   ![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/genymotion2.png)
 
 ## 2.4安装nodejs
 
@@ -69,17 +65,17 @@ D:\Program Files\android\platform-tools; D:\Program Files\android\tools;
 
 选择windows免安装版64位
 
-![图片描述][5]
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/nodejs.png)
 
 - 解压到要安装的目录
 
-  ![图片描述][6]
+  ![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/nodejspath.png)
 
 - 添加环境变量
 
   计算机(右键)-->属性(左键)-->高级系统设置(左键)-->环境变量(左键)
 
- ![图片描述][7]
+ ![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/nodejsdetail.png)
 
 - 检查是否配置成功
 
