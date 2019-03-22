@@ -4,7 +4,7 @@
 网址：https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 选择则Linux系统1.8版本64位如图：
-![图片描述][1]
+![](https://github.com/liukai90/liukai90.github.io/blob/master/java/img/jsk.png)
 
 
 2.把jdk压缩包解压到安装的目录
@@ -33,7 +33,7 @@
     export PATH CLASSPATH JAVA_HOME
 
 如图：
-![图片描述][2]
+![](https://github.com/liukai90/liukai90.github.io/blob/master/java/img/profile.png)
 
 
 4.启用配置
