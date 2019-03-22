@@ -55,7 +55,7 @@
 ```
 运行效果如下：
 
-![clipboard.png](/img/bVbkVcM)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/modulecheck.png)
 
 
 ## 3核心属性
