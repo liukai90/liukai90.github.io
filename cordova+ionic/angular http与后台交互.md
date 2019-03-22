@@ -71,7 +71,7 @@ ionic g provider RequestService
 
 执行完成后则会出现如下文件
 
-![图片描述][1]
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/project.png)
 
 
 
