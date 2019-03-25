@@ -14,4 +14,4 @@
 
 （1）打开notepad++编辑.sh文件
 
-（2）notepad++右下角将windows模式改为inux模式
+（2）notepad++右下角将windows模式改为linux模式
