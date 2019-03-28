@@ -54,7 +54,7 @@ Ionic cordova build android
 
 3修改InAppBrowser Android部分的源码
 
-![](https://github.com/liukai90/liukai90.github.io/tree/master/cordova%2Bionic/img/chromeClient.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/chromeClient.png)
 
 
 
@@ -141,7 +141,7 @@ import org.apache.cordova.*;
 
 4.修改cordova android部分的源码 
 
-![](https://github.com/liukai90/liukai90.github.io/tree/master/cordova%2Bionic/img/engine.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/engine.png)
 
 
 
@@ -155,7 +155,7 @@ CordovaBridge getCordovaBridge();
 
 打开CordovaWebViewEngin.java接口的实现类SystemWebViewEngine.java 
 
-![](https://github.com/liukai90/liukai90.github.io/tree/master/cordova%2Bionic/img/systemengine.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/systemengine.png)
 
 路径如下：**platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java**
 
@@ -185,7 +185,7 @@ public CordovaBridge getCordovaBridge(){
 
 CordovaBridge.java新增代码，路径platforms/android/CordovaLib/src/org/apache/cordova/CordovaBridge.java 
 
-![](https://github.com/liukai90/liukai90.github.io/tree/master/cordova%2Bionic/img/bridge.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/bridge.png)
 
 ```java
 @SuppressLint("TrulyRandom")
@@ -210,7 +210,7 @@ int generateBridgeSecret() {
 
 找到InAppBrowser插件的js接口如下图：
 
-![](https://github.com/liukai90/liukai90.github.io/tree/master/cordova%2Bionic/img/inapp.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/inapp.png)
 
 
 
@@ -254,7 +254,7 @@ module.exports = function (strUrl, strWindowName, strWindowFeatures, callbacks) 
 
 打开cordova.Js修改如图
 
-![](https://github.com/liukai90/liukai90.github.io/tree/master/cordova%2Bionic/img/cordova.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/cordova.png)
 
 打开platforms/android/platform_www/cordova.js文件 新增：
 
@@ -355,7 +355,7 @@ callbackFromNative: function (callbackId, isSuccess, status, args, keepCallback)
 
 
 
-![](https://github.com/liukai90/liukai90.github.io/tree/master/cordova%2Bionic/img/inject.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/inject.png)
 
 修改
 
@@ -369,11 +369,11 @@ private static final String NATIVE_JS_PREFIX = "https://native-js/";
 
 如下图
 
-![](https://github.com/liukai90/liukai90.github.io/tree/master/cordova%2Bionic/img/inject2.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/inject2.png)
 
 
 
-1.       通过私有协议注入cordova.Js文件
+1.通过私有协议注入cordova.Js文件
 
 在页面加载完成后注入
 
