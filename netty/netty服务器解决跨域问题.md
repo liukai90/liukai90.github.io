@@ -2,7 +2,7 @@
 
 使用netty开发的服务器，使用cordova和ionic混合开发方案，网络访问使用的angular的HttpClient,将访问netty开发的服务端，在浏览器里做测试结果如图
 
-![](E:\git\liukai90.github.io\netty\img\error.png)
+![](https://github.com/liukai90/liukai90.github.io/blob/master/netty/img/error.png)
 
 这一看就是跨域错误，我在服务端解决。
 
