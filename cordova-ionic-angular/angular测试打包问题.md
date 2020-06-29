@@ -20,7 +20,7 @@ ng serve 即可在浏览器看到效果，但有时会通过http、webscoket、s
 
 所在项目位置
 
-![1593410363063](https://github.com/liukai90/liukai90.github.io/blob/master/cordova%2Bionic/img/1593410363063.png)
+![1593410363063](https://github.com/liukai90/liukai90.github.io/blob/master/cordova-ionic-angular/img/1593410363063.png)
 
 运行命令
 
